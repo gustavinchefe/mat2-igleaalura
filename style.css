@@ -22,10 +22,8 @@ body {
 .principal {
     background-image: url("img/background.png");
     background-repeat: no-repeat;
-    background-size: contain;
-    align-items: center;
-    text-align: center;
 }
+
 
 .container {
     height: 100;
@@ -40,7 +38,6 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
-    margin-bottom: 1em;
 }
 
 .botao_secudario {
@@ -56,32 +53,4 @@ body {
 .container_titulo {
     font-size: 28px;
     font-weight: 700;
-}
-
-.container_imagem  {
- margin: 1em 0 2em 0;
-}
-
-.conatiner__caixa  {
-   margin: 0 6em;
-}
-
-.secundario__imagem {
-    width: 80%;
-}
-
-.secundario {
-    align-items: center;
-    margin: 0 10em;
-}
-
-.decrisao__titulo {
-    font-weight: 700;
-    font-size: 48px;
-    color: var(--branco-principal);
-    margin-bottom: 0.5em;
-}
-
-.decrisao__texto {
-    color: var(--cinza-secundario);
 }
